@@ -1,0 +1,1321 @@
+<!DOCTYPE html>
+<html lang="ru">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Купоны и скидки на доставку еды и в рестораны Москвы. Бесплатные промокоды на скидку в Яндекс Еда, Delivery Club, Dodo Pizza, Burger King и другие. Скидки до 50% на роллы, пиццу, бургеры.">
+    <meta name="keywords" content="купоны рестораны, скидки на доставку еды, промокоды еда, скидки на роллы, купоны пицца, промокоды Яндекс Еда, Delivery Club промокод">
+    <meta name="robots" content="index, follow">
+    <title>🍕 Купоны и скидки в рестораны и доставку - Бесплатные промокоды 2026</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap" rel="stylesheet">
+    
+    <style>
+        * {
+            margin: 0;
+            padding: 0;
+            box-sizing: border-box;
+        }
+
+        body {
+            font-family: 'Roboto', sans-serif;
+            line-height: 1.6;
+            color: #333;
+            background-color: #fff9f5;
+        }
+
+        .container {
+            width: 100%;
+            max-width: 1200px;
+            margin: 0 auto;
+            padding: 0 20px;
+        }
+
+        /* Шапка - ресторанная тематика */
+        header {
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            color: white;
+            padding: 20px 0;
+            box-shadow: 0 4px 12px rgba(230, 126, 34, 0.2);
+        }
+
+        .header-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .logo {
+            display: flex;
+            align-items: center;
+        }
+
+        .logo h1 {
+            font-size: 28px;
+            font-weight: 700;
+            margin-left: 10px;
+        }
+
+        .logo-icon {
+            font-size: 32px;
+        }
+
+        nav ul {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        nav ul li {
+            margin-left: 30px;
+        }
+
+        nav ul li a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            font-size: 18px;
+            transition: all 0.3s;
+            padding: 5px 10px;
+            border-radius: 4px;
+        }
+
+        nav ul li a:hover,
+        nav ul li a.active {
+            background-color: rgba(255, 255, 255, 0.2);
+        }
+
+        .auth-buttons a {
+            color: white;
+            text-decoration: none;
+            font-weight: 500;
+            margin-left: 15px;
+            padding: 8px 20px;
+            border-radius: 30px;
+            transition: all 0.3s;
+        }
+
+        .auth-buttons .login {
+            border: 2px solid white;
+        }
+
+        .auth-buttons .register {
+            background-color: white;
+            color: #e67e22;
+        }
+
+        .auth-buttons a:hover {
+            transform: translateY(-3px);
+            box-shadow: 0 5px 15px rgba(0, 0, 0, 0.1);
+        }
+
+        /* Хлебные крошки */
+        .breadcrumbs {
+            padding: 20px 0;
+            background-color: #fff2e6;
+        }
+
+        .breadcrumbs ul {
+            display: flex;
+            list-style: none;
+            flex-wrap: wrap;
+        }
+
+        .breadcrumbs li {
+            margin-right: 10px;
+            color: #666;
+            font-size: 14px;
+        }
+
+        .breadcrumbs li a {
+            color: #e67e22;
+            text-decoration: none;
+        }
+
+        .breadcrumbs li a:hover {
+            text-decoration: underline;
+        }
+
+        .breadcrumbs li:after {
+            content: '/';
+            margin-left: 10px;
+            color: #999;
+        }
+
+        .breadcrumbs li:last-child:after {
+            content: '';
+        }
+
+        /* Герой секция категории - ресторанная тематика */
+        .category-hero {
+            padding: 60px 0;
+            background: linear-gradient(rgba(0, 0, 0, 0.7), rgba(0, 0, 0, 0.7)), url('https://images.unsplash.com/photo-1504674900247-0877df9cc836?ixlib=rb-4.0.3&auto=format&fit=crop&w=1170&q=80');
+            background-size: cover;
+            background-position: center;
+            color: white;
+            text-align: center;
+        }
+
+        .category-hero h2 {
+            font-size: 48px;
+            margin-bottom: 20px;
+            font-weight: 700;
+            text-shadow: 2px 2px 4px rgba(0,0,0,0.3);
+        }
+
+        .category-hero p {
+            font-size: 20px;
+            max-width: 700px;
+            margin: 0 auto 30px;
+            opacity: 0.95;
+        }
+
+        .category-stats {
+            display: flex;
+            justify-content: center;
+            gap: 50px;
+            margin-top: 40px;
+            flex-wrap: wrap;
+        }
+
+        .stat-item {
+            text-align: center;
+        }
+
+        .stat-number {
+            font-size: 36px;
+            font-weight: 700;
+            color: #f39c12;
+        }
+
+        .stat-label {
+            font-size: 16px;
+            opacity: 0.9;
+        }
+
+        /* Фильтры */
+        .filters {
+            padding: 30px 0;
+            background-color: white;
+            border-bottom: 1px solid #ffe6d5;
+        }
+
+        .filters-container {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+        }
+
+        .filter-tabs {
+            display: flex;
+            gap: 15px;
+            flex-wrap: wrap;
+        }
+
+        .filter-tab {
+            padding: 8px 20px;
+            border: 1px solid #ffd0b5;
+            border-radius: 30px;
+            background: none;
+            cursor: pointer;
+            font-size: 14px;
+            transition: all 0.3s;
+            color: #e67e22;
+        }
+
+        .filter-tab:hover,
+        .filter-tab.active {
+            background-color: #e67e22;
+            color: white;
+            border-color: #e67e22;
+        }
+
+        .sort-select {
+            padding: 8px 20px;
+            border: 1px solid #ffd0b5;
+            border-radius: 30px;
+            font-size: 14px;
+            cursor: pointer;
+            color: #e67e22;
+        }
+
+        /* Секция скидок */
+        .discounts {
+            padding: 60px 0;
+        }
+
+        .section-title {
+            text-align: left;
+            margin-bottom: 40px;
+        }
+
+        .section-title h2 {
+            font-size: 32px;
+            color: #333;
+            margin-bottom: 15px;
+            position: relative;
+            display: inline-block;
+        }
+
+        .section-title h2:after {
+            content: '';
+            position: absolute;
+            width: 70px;
+            height: 4px;
+            background-color: #e67e22;
+            bottom: -10px;
+            left: 0;
+        }
+
+        .discounts-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fill, minmax(350px, 1fr));
+            gap: 30px;
+        }
+
+        .discount-card {
+            background-color: white;
+            border-radius: 15px;
+            overflow: hidden;
+            box-shadow: 0 5px 15px rgba(230, 126, 34, 0.08);
+            transition: all 0.3s;
+            border: 1px solid #ffe6d5;
+        }
+
+        .discount-card:hover {
+            transform: translateY(-5px);
+            box-shadow: 0 15px 30px rgba(230, 126, 34, 0.15);
+        }
+
+        .discount-header {
+            padding: 20px;
+            background: linear-gradient(135deg, #e67e22 0%, #d35400 100%);
+            color: white;
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+        }
+
+        .discount-value {
+            font-size: 36px;
+            font-weight: 700;
+        }
+
+        .discount-store {
+            background-color: rgba(255, 255, 255, 0.2);
+            padding: 5px 15px;
+            border-radius: 20px;
+            font-size: 14px;
+            font-weight: 500;
+        }
+
+        .discount-body {
+            padding: 25px;
+            position: relative;
+        }
+
+        .discount-title {
+            font-size: 20px;
+            margin-bottom: 10px;
+            color: #333;
+            font-weight: 600;
+        }
+
+        .discount-description {
+            color: #666;
+            margin-bottom: 20px;
+            line-height: 1.5;
+            font-size: 15px;
+        }
+
+        .coupon-code {
+            background-color: #fff9f5;
+            border: 2px dashed #e67e22;
+            padding: 12px;
+            text-align: center;
+            margin: 15px 0;
+            border-radius: 5px;
+            font-size: 20px;
+            font-weight: 700;
+            color: #d35400;
+            letter-spacing: 3px;
+        }
+
+        .discount-info {
+            display: flex;
+            justify-content: space-between;
+            color: #888;
+            font-size: 13px;
+            margin-bottom: 20px;
+            flex-wrap: wrap;
+        }
+
+        .discount-button {
+            display: block;
+            width: 100%;
+            padding: 14px;
+            background-color: #e67e22;
+            color: white;
+            border: none;
+            border-radius: 5px;
+            font-size: 16px;
+            font-weight: 500;
+            cursor: pointer;
+            transition: all 0.3s;
+            text-align: center;
+            text-decoration: none;
+        }
+
+        .discount-button:hover {
+            background-color: #d35400;
+            transform: scale(1.02);
+        }
+
+        .expired {
+            opacity: 0.7;
+            position: relative;
+        }
+
+        .expired:after {
+            content: 'Истек';
+            position: absolute;
+            top: 10px;
+            right: 10px;
+            background-color: #95a5a6;
+            color: white;
+            padding: 3px 10px;
+            border-radius: 3px;
+            font-size: 12px;
+        }
+
+        /* Специфические для ресторанов стили */
+        .food-tags {
+            display: flex;
+            gap: 10px;
+            flex-wrap: wrap;
+            margin-bottom: 15px;
+        }
+
+        .food-tag {
+            background-color: #fff2e6;
+            padding: 4px 12px;
+            border-radius: 20px;
+            font-size: 12px;
+            color: #e67e22;
+            font-weight: 500;
+        }
+
+        .restaurant-badge {
+            position: absolute;
+            top: -15px;
+            left: 25px;
+            background-color: #f39c12;
+            color: white;
+            padding: 5px 15px;
+            border-radius: 30px;
+            font-size: 12px;
+            font-weight: 700;
+            box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+        }
+
+        .delivery-time {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+            color: #27ae60;
+            font-size: 13px;
+        }
+
+        .rating {
+            color: #f39c12;
+            letter-spacing: 2px;
+        }
+
+        /* Сайдбар */
+        .discounts-with-sidebar {
+            display: grid;
+            grid-template-columns: 1fr 300px;
+            gap: 30px;
+        }
+
+        .sidebar {
+            background-color: white;
+            border-radius: 15px;
+            padding: 25px;
+            box-shadow: 0 5px 15px rgba(230, 126, 34, 0.08);
+            height: fit-content;
+            border: 1px solid #ffe6d5;
+        }
+
+        .sidebar-widget {
+            margin-bottom: 30px;
+        }
+
+        .sidebar-widget h3 {
+            font-size: 18px;
+            margin-bottom: 20px;
+            color: #333;
+            position: relative;
+            padding-bottom: 10px;
+        }
+
+        .sidebar-widget h3:after {
+            content: '';
+            position: absolute;
+            width: 40px;
+            height: 3px;
+            background-color: #e67e22;
+            bottom: 0;
+            left: 0;
+        }
+
+        .store-list {
+            list-style: none;
+        }
+
+        .store-list li {
+            margin-bottom: 12px;
+        }
+
+        .store-list a {
+            color: #666;
+            text-decoration: none;
+            display: flex;
+            justify-content: space-between;
+            transition: all 0.3s;
+        }
+
+        .store-list a:hover {
+            color: #e67e22;
+            padding-left: 5px;
+        }
+
+        .store-list span {
+            color: #999;
+            font-size: 13px;
+        }
+
+        /* Кухни мира */
+        .cuisine-chips {
+            display: flex;
+            flex-wrap: wrap;
+            gap: 10px;
+        }
+
+        .cuisine-chip {
+            padding: 8px 16px;
+            background-color: #fff9f5;
+            border: 1px solid #ffd0b5;
+            border-radius: 30px;
+            font-size: 13px;
+            cursor: pointer;
+            transition: all 0.3s;
+            color: #e67e22;
+        }
+
+        .cuisine-chip:hover {
+            background-color: #e67e22;
+            color: white;
+            border-color: #e67e22;
+        }
+
+        /* Пагинация */
+        .pagination {
+            margin-top: 50px;
+            display: flex;
+            justify-content: center;
+            gap: 10px;
+        }
+
+        .pagination a {
+            padding: 10px 15px;
+            background-color: white;
+            border: 1px solid #ffd0b5;
+            border-radius: 5px;
+            color: #e67e22;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .pagination a:hover,
+        .pagination a.active {
+            background-color: #e67e22;
+            color: white;
+            border-color: #e67e22;
+        }
+
+        /* Футер */
+        footer {
+            background-color: #2c1e1a;
+            color: white;
+            padding: 60px 0 30px;
+            margin-top: 60px;
+        }
+
+        .footer-content {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+            gap: 40px;
+            margin-bottom: 40px;
+        }
+
+        .footer-column h3 {
+            font-size: 20px;
+            margin-bottom: 25px;
+            position: relative;
+            padding-bottom: 10px;
+            color: #f39c12;
+        }
+
+        .footer-column h3:after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background-color: #e67e22;
+            bottom: 0;
+            left: 0;
+        }
+
+        .footer-column p {
+            color: #e0d6d2;
+            margin-bottom: 20px;
+            line-height: 1.6;
+        }
+
+        .footer-links {
+            list-style: none;
+        }
+
+        .footer-links li {
+            margin-bottom: 12px;
+        }
+
+        .footer-links a {
+            color: #e0d6d2;
+            text-decoration: none;
+            transition: all 0.3s;
+        }
+
+        .footer-links a:hover {
+            color: #f39c12;
+            padding-left: 5px;
+        }
+
+        .social-icons {
+            display: flex;
+            margin-top: 20px;
+        }
+
+        .social-icons a {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 40px;
+            height: 40px;
+            background-color: rgba(255, 255, 255, 0.1);
+            border-radius: 50%;
+            margin-right: 10px;
+            color: white;
+            font-size: 18px;
+            transition: all 0.3s;
+        }
+
+        .social-icons a:hover {
+            background-color: #e67e22;
+            transform: translateY(-5px);
+        }
+
+        .footer-bottom {
+            text-align: center;
+            padding-top: 30px;
+            border-top: 1px solid rgba(255, 255, 255, 0.1);
+            color: #e0d6d2;
+            font-size: 14px;
+        }
+
+        /* Адаптивность */
+        @media (max-width: 992px) {
+            .discounts-with-sidebar {
+                grid-template-columns: 1fr;
+            }
+            
+            .header-container {
+                flex-direction: column;
+            }
+            
+            .logo {
+                margin-bottom: 20px;
+            }
+            
+            nav ul {
+                margin-bottom: 20px;
+            }
+            
+            .auth-buttons {
+                margin-top: 10px;
+            }
+            
+            .category-hero h2 {
+                font-size: 36px;
+            }
+        }
+
+        @media (max-width: 768px) {
+            nav ul {
+                flex-direction: column;
+                text-align: center;
+            }
+            
+            nav ul li {
+                margin: 10px 0;
+            }
+            
+            .discounts-grid {
+                grid-template-columns: 1fr;
+            }
+            
+            .filters-container {
+                flex-direction: column;
+                gap: 15px;
+            }
+            
+            .category-hero h2 {
+                font-size: 30px;
+            }
+            
+            .category-stats {
+                gap: 25px;
+            }
+        }
+
+        /* Анимация для ресторанных карточек */
+        @keyframes float {
+            0% { transform: translateY(0px); }
+            50% { transform: translateY(-5px); }
+            100% { transform: translateY(0px); }
+        }
+
+        .discount-card:hover .discount-header {
+            background: linear-gradient(135deg, #f39c12 0%, #e67e22 100%);
+        }
+    </style>
+</head>
+<body>
+    <!-- Шапка сайта -->
+    <header>
+        <div class="container header-container">
+            <div class="logo">
+                <div class="logo-icon">
+                    <i class="fas fa-utensils"></i>
+                </div>
+                <h1>Скидки&Купоны</h1>
+            </div>
+            <nav>
+                <ul>
+                    <li><a href="index.html"><i class="fas fa-home"></i> Главная</a></li>
+                    <li><a href="discounts.html"><i class="fas fa-tags"></i> Акции</a></li>
+                    <li><a href="categories.html" class="active"><i class="fas fa-list"></i> Категории</a></li>
+                    <li><a href="how-it-works.html"><i class="fas fa-question-circle"></i> Как это работает</a></li>
+                </ul>
+            </nav>
+            <div class="auth-buttons">
+                <a href="#" class="login"><i class="fas fa-sign-in-alt"></i> Войти</a>
+                <a href="#" class="register"><i class="fas fa-user-plus"></i> Регистрация</a>
+            </div>
+        </div>
+    </header>
+
+    <!-- Хлебные крошки -->
+    <div class="breadcrumbs">
+        <div class="container">
+            <ul>
+                <li><a href="index.html">Главная</a></li>
+                <li><a href="categories.html">Категории</a></li>
+                <li>Рестораны и доставка</li>
+            </ul>
+        </div>
+    </div>
+
+    <!-- Герой секция категории -->
+    <section class="category-hero">
+        <div class="container">
+            <h2>🍕 Скидки в рестораны и доставку</h2>
+            <p>Экономьте до 50% на любимых блюдах! Актуальные промокоды на доставку пиццы, роллов, бургеров и скидки в ресторанах Москвы.</p>
+            <div class="category-stats">
+                <div class="stat-item">
+                    <div class="stat-number">156</div>
+                    <div class="stat-label">Активных купонов</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">89</div>
+                    <div class="stat-label">Ресторанов</div>
+                </div>
+                <div class="stat-item">
+                    <div class="stat-number">до 50%</div>
+                    <div class="stat-label">Макс. скидка</div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Фильтры -->
+    <section class="filters">
+        <div class="container filters-container">
+            <div class="filter-tabs">
+                <button class="filter-tab active">Все предложения</button>
+                <button class="filter-tab">🍕 Пицца</button>
+                <button class="filter-tab">🍣 Роллы</button>
+                <button class="filter-tab">🍔 Бургеры</button>
+                <button class="filter-tab">🥗 WOK</button>
+                <button class="filter-tab">🍜 Супы</button>
+                <button class="filter-tab">🍰 Десерты</button>
+            </div>
+            <select class="sort-select">
+                <option>По популярности</option>
+                <option>По размеру скидки</option>
+                <option>Новые</option>
+                <option>Скоро закончатся</option>
+                <option>Бесплатная доставка</option>
+            </select>
+        </div>
+    </section>
+
+    <!-- Основной контент с купонами -->
+    <section class="discounts">
+        <div class="container discounts-with-sidebar">
+            <!-- Список купонов -->
+            <div>
+                <div class="section-title">
+                    <h2>🔥 Горячие купоны на еду</h2>
+                    <p>Самые вкусные предложения сегодня</p>
+                </div>
+                
+                <div class="discounts-grid">
+                    <!-- Карточка скидки 1 - Яндекс Еда -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-500₽</div>
+                            <div class="discount-store">Яндекс Еда</div>
+                        </div>
+                        <div class="discount-body">
+                            <span class="restaurant-badge">🔥 ТОП-ПРОМОКОД</span>
+                            <div class="food-tags">
+                                <span class="food-tag">🍕 Пицца</span>
+                                <span class="food-tag">🍣 Роллы</span>
+                                <span class="food-tag">🍔 Бургеры</span>
+                                <span class="food-tag">🚚 Доставка</span>
+                            </div>
+                            <h3 class="discount-title">Скидка 500 рублей на первый заказ</h3>
+                            <p class="discount-description">Скидка 500 рублей на первый заказ от 1000 рублей. Промокод действует на все рестораны в приложении Яндекс Еда.</p>
+                            <div class="coupon-code">YAN500</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 30.04.2026</span>
+                                <span class="delivery-time"><i class="fas fa-motorcycle"></i> 30-40 мин</span>
+                                <span><i class="fas fa-download"></i> 12.5K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 2 - Delivery Club -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-30%</div>
+                            <div class="discount-store">Delivery Club</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">🍣 Роллы</span>
+                                <span class="food-tag">🍜 WOK</span>
+                                <span class="food-tag">🥟 Хинкали</span>
+                            </div>
+                            <h3 class="discount-title">Скидка 30% на азиатскую кухню</h3>
+                            <p class="discount-description">Скидка 30% на заказы из ресторанов азиатской кухни. Акция распространяется на роллы, вок, супы и закуски.</p>
+                            <div class="coupon-code">ASIA30</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 25.04.2026</span>
+                                <span class="delivery-time"><i class="fas fa-motorcycle"></i> 35-50 мин</span>
+                                <span><i class="fas fa-download"></i> 8.2K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 3 - Dodo Pizza -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-50%</div>
+                            <div class="discount-store">Dodo Pizza</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">🍕 Пицца</span>
+                                <span class="food-tag">🧀 Сырный бортик</span>
+                                <span class="food-tag">🥤 Напитки</span>
+                            </div>
+                            <h3 class="discount-title">Вторая пицца в подарок</h3>
+                            <p class="discount-description">Закажите любую пиццу и получите вторую бесплатно! Акция действует на пиццы среднего и большого размера.</p>
+                            <div class="coupon-code">DODO50</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 20.04.2026</span>
+                                <span class="delivery-time"><i class="fas fa-bicycle"></i> 30-45 мин</span>
+                                <span><i class="fas fa-download"></i> 15.3K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 4 - Burger King -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-40%</div>
+                            <div class="discount-store">Burger King</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">🍔 Воппер</span>
+                                <span class="food-tag">🍟 Картошка</span>
+                                <span class="food-tag">🥤 Кола</span>
+                            </div>
+                            <h3 class="discount-title">Воппер за полцены</h3>
+                            <p class="discount-description">Скидка 40% на любой Воппер в приложении Burger King. Комбо-наборы со скидкой до 35%.</p>
+                            <div class="coupon-code">BK40</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 15.05.2026</span>
+                                <span class="rating"><i class="fas fa-star"></i> 4.7</span>
+                                <span><i class="fas fa-download"></i> 9.8K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 5 - KFC -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-35%</div>
+                            <div class="discount-store">KFC</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">🍗 Острые крылья</span>
+                                <span class="food-tag">🍔 Твистер</span>
+                                <span class="food-tag">🧀 Сырные палочки</span>
+                            </div>
+                            <h3 class="discount-title">Скидка на острые крылья</h3>
+                            <p class="discount-description">Скидка 35% на острые крылья и стрипсы. При заказе от 500 рублей бесплатная доставка.</p>
+                            <div class="coupon-code">KFC35</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 10.05.2026</span>
+                                <span class="delivery-time"><i class="fas fa-bolt"></i> 25-35 мин</span>
+                                <span><i class="fas fa-download"></i> 7.4K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 6 - Тануки -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-45%</div>
+                            <div class="discount-store">Тануки</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">🍣 Роллы</span>
+                                <span class="food-tag">🍜 Рамэн</span>
+                                <span class="food-tag">🥟 Гедза</span>
+                            </div>
+                            <h3 class="discount-title">Скидка на наборы роллов</h3>
+                            <p class="discount-description">Скидка 45% на сет "Филадельфия" и "Калифорния". При заказе от 1500 рублей — васаби и имбирь в подарок.</p>
+                            <div class="coupon-code">TANUKI45</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 28.04.2026</span>
+                                <span class="rating"><i class="fas fa-star"></i> 4.8</span>
+                                <span><i class="fas fa-download"></i> 6.1K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 7 - Starbucks -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-25%</div>
+                            <div class="discount-store">Starbucks</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">☕ Кофе</span>
+                                <span class="food-tag">🧁 Капкейки</span>
+                                <span class="food-tag">🥐 Круассаны</span>
+                            </div>
+                            <h3 class="discount-title">Скидка на кофе с собой</h3>
+                            <p class="discount-description">Скидка 25% на любой напиток при заказе через приложение. Акция действует на все кофейни Starbucks.</p>
+                            <div class="coupon-code">STAR25</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 15.05.2026</span>
+                                <span><i class="fas fa-map-marker-alt"></i> 48 кофеен</span>
+                                <span><i class="fas fa-download"></i> 4.3K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 8 - Papa Johns -->
+                    <div class="discount-card expired">
+                        <div class="discount-header">
+                            <div class="discount-value">-50%</div>
+                            <div class="discount-store">Papa Johns</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">🍕 Папа гранде</span>
+                                <span class="food-tag">🧄 Чесночный соус</span>
+                                <span class="food-tag">🥤 Пепси</span>
+                            </div>
+                            <h3 class="discount-title">Пицца со скидкой 50%</h3>
+                            <p class="discount-description">Скидка 50% на пиццу при самовывозе. Акция завершена.</p>
+                            <div class="coupon-code">PAPA50</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 01.03.2026</span>
+                                <span><i class="fas fa-store"></i> Самовывоз</span>
+                                <span><i class="fas fa-download"></i> 5.7K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Купон истек</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 9 - IL Патио -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-20%</div>
+                            <div class="discount-store">IL Патио</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">🍝 Паста</span>
+                                <span class="food-tag">🍕 Пицца</span>
+                                <span class="food-tag">🥗 Цезарь</span>
+                            </div>
+                            <h3 class="discount-title">Скидка на итальянскую кухню</h3>
+                            <p class="discount-description">Скидка 20% на весь заказ в ресторанах IL Патио. Действует на пасту, пиццу и салаты.</p>
+                            <div class="coupon-code">PATIO20</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 22.05.2026</span>
+                                <span class="rating"><i class="fas fa-star"></i> 4.5</span>
+                                <span><i class="fas fa-download"></i> 2.8K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                    
+                    <!-- Карточка скидки 10 - Вкусно и точка -->
+                    <div class="discount-card">
+                        <div class="discount-header">
+                            <div class="discount-value">-30%</div>
+                            <div class="discount-store">Вкусно и точка</div>
+                        </div>
+                        <div class="discount-body">
+                            <div class="food-tags">
+                                <span class="food-tag">🍔 Биг Хит</span>
+                                <span class="food-tag">🍟 Картошка</span>
+                                <span class="food-tag">🍦 Маффин</span>
+                            </div>
+                            <h3 class="discount-title">Скидка на комбо-обеды</h3>
+                            <p class="discount-description">Скидка 30% на комбо-обеды в будние дни с 12:00 до 16:00. Промокод действует на все точки сети.</p>
+                            <div class="coupon-code">TASTY30</div>
+                            <div class="discount-info">
+                                <span><i class="far fa-calendar-alt"></i> До 31.05.2026</span>
+                                <span><i class="fas fa-clock"></i> 12:00-16:00</span>
+                                <span><i class="fas fa-download"></i> 6.9K использ.</span>
+                            </div>
+                            <a href="#" class="discount-button"><i class="fas fa-copy"></i> Получить купон</a>
+                        </div>
+                    </div>
+                </div>
+                
+                <!-- Пагинация -->
+                <div class="pagination">
+                    <a href="#" class="active">1</a>
+                    <a href="#">2</a>
+                    <a href="#">3</a>
+                    <a href="#">4</a>
+                    <a href="#">5</a>
+                    <a href="#">→</a>
+                </div>
+            </div>
+            
+            <!-- Сайдбар -->
+            <div class="sidebar">
+                <div class="sidebar-widget">
+                    <h3>🍽️ Популярные рестораны</h3>
+                    <ul class="store-list">
+                        <li><a href="#">Яндекс Еда <span>15 купонов</span></a></li>
+                        <li><a href="#">Delivery Club <span>12 купонов</span></a></li>
+                        <li><a href="#">Dodo Pizza <span>8 купонов</span></a></li>
+                        <li><a href="#">Burger King <span>10 купонов</span></a></li>
+                        <li><a href="#">KFC <span>9 купонов</span></a></li>
+                        <li><a href="#">Тануки <span>7 купонов</span></a></li>
+                        <li><a href="#">IL Патио <span>6 купонов</span></a></li>
+                        <li><a href="#">Starbucks <span>5 купонов</span></a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>🌍 Кухни мира</h3>
+                    <div class="cuisine-chips">
+                        <span class="cuisine-chip">🍕 Итальянская</span>
+                        <span class="cuisine-chip">🍣 Японская</span>
+                        <span class="cuisine-chip">🍔 Американская</span>
+                        <span class="cuisine-chip">🥗 Европейская</span>
+                        <span class="cuisine-chip">🌮 Мексиканская</span>
+                        <span class="cuisine-chip">🥘 Грузинская</span>
+                        <span class="cuisine-chip">🍜 Китайская</span>
+                        <span class="cuisine-chip">🥨 Немецкая</span>
+                    </div>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>💰 Размер скидки</h3>
+                    <ul class="store-list">
+                        <li><a href="#">до 20% <span>28 купонов</span></a></li>
+                        <li><a href="#">21-30% <span>42 купона</span></a></li>
+                        <li><a href="#">31-50% <span>51 купон</span></a></li>
+                        <li><a href="#">Бесплатная доставка <span>19 купонов</span></a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>🎁 Спецпредложения</h3>
+                    <ul class="store-list">
+                        <li><a href="#">Первый заказ <span>12 купонов</span></a></li>
+                        <li><a href="#">День рождения <span>8 купонов</span></a></li>
+                        <li><a href="#">Самовывоз <span>15 купонов</span></a></li>
+                        <li><a href="#">Ночная доставка <span>6 купонов</span></a></li>
+                    </ul>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>⭐ Эксклюзивный купон</h3>
+                    <div style="background: linear-gradient(135deg, #e67e22 0%, #f39c12 100%); color: white; padding: 20px; border-radius: 15px; text-align: center;">
+                        <i class="fas fa-crown" style="font-size: 30px; margin-bottom: 10px;"></i>
+                        <h4 style="margin-bottom: 10px;">Скидка 50% на роллы</h4>
+                        <p style="font-size: 14px; margin-bottom: 15px;">Только для подписчиков</p>
+                        <div style="background: rgba(255,255,255,0.25); padding: 12px; border-radius: 8px; font-size: 20px; letter-spacing: 4px; margin-bottom: 15px; font-weight: 700;">ROLL50</div>
+                        <button style="background: white; color: #e67e22; border: none; padding: 12px 25px; border-radius: 30px; font-weight: 700; cursor: pointer; width: 100%; font-size: 16px;">Активировать</button>
+                    </div>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>📱 Скачать приложение</h3>
+                    <p style="color: #666; margin-bottom: 15px;">Установите наше приложение и получайте уведомления о новых купонах на еду первыми!</p>
+                    <div style="display: flex; gap: 10px;">
+                        <button style="flex: 1; padding: 12px; background-color: #2c3e50; color: white; border: none; border-radius: 10px; cursor: pointer;">
+                            <i class="fab fa-apple"></i> App Store
+                        </button>
+                        <button style="flex: 1; padding: 12px; background-color: #2c3e50; color: white; border: none; border-radius: 10px; cursor: pointer;">
+                            <i class="fab fa-google-play"></i> Google Play
+                        </button>
+                    </div>
+                </div>
+                
+                <div class="sidebar-widget">
+                    <h3>📧 Подписка на скидки</h3>
+                    <p style="color: #666; margin-bottom: 15px;">Получайте горячие купоны на доставку еды каждый день!</p>
+                    <input type="email" placeholder="Ваш email" style="width: 100%; padding: 12px; border: 1px solid #ffd0b5; border-radius: 8px; margin-bottom: 10px;">
+                    <button style="width: 100%; padding: 12px; background-color: #e67e22; color: white; border: none; border-radius: 8px; cursor: pointer; font-weight: 500;">Подписаться на вкусное</button>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Специальные предложения по кухням -->
+    <section style="padding: 0 0 60px 0;">
+        <div class="container">
+            <div class="section-title">
+                <h2>🍣 Популярные кухни</h2>
+            </div>
+            <div style="display: grid; grid-template-columns: repeat(auto-fill, minmax(180px, 1fr)); gap: 20px;">
+                <div style="background: white; padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(230,126,34,0.08); border: 1px solid #ffe6d5;">
+                    <div style="font-size: 40px; margin-bottom: 10px;">🍕</div>
+                    <h4 style="font-size: 18px; margin-bottom: 5px;">Итальянская</h4>
+                    <span style="font-size: 13px; color: #e67e22;">23 купона</span>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(230,126,34,0.08); border: 1px solid #ffe6d5;">
+                    <div style="font-size: 40px; margin-bottom: 10px;">🍣</div>
+                    <h4 style="font-size: 18px; margin-bottom: 5px;">Японская</h4>
+                    <span style="font-size: 13px; color: #e67e22;">31 купон</span>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(230,126,34,0.08); border: 1px solid #ffe6d5;">
+                    <div style="font-size: 40px; margin-bottom: 10px;">🍔</div>
+                    <h4 style="font-size: 18px; margin-bottom: 5px;">Американская</h4>
+                    <span style="font-size: 13px; color: #e67e22;">27 купонов</span>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(230,126,34,0.08); border: 1px solid #ffe6d5;">
+                    <div style="font-size: 40px; margin-bottom: 10px;">🥘</div>
+                    <h4 style="font-size: 18px; margin-bottom: 5px;">Грузинская</h4>
+                    <span style="font-size: 13px; color: #e67e22;">14 купонов</span>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(230,126,34,0.08); border: 1px solid #ffe6d5;">
+                    <div style="font-size: 40px; margin-bottom: 10px;">🌮</div>
+                    <h4 style="font-size: 18px; margin-bottom: 5px;">Мексиканская</h4>
+                    <span style="font-size: 13px; color: #e67e22;">11 купонов</span>
+                </div>
+                <div style="background: white; padding: 25px; border-radius: 15px; text-align: center; box-shadow: 0 5px 15px rgba(230,126,34,0.08); border: 1px solid #ffe6d5;">
+                    <div style="font-size: 40px; margin-bottom: 10px;">🥗</div>
+                    <h4 style="font-size: 18px; margin-bottom: 5px;">Европейская</h4>
+                    <span style="font-size: 13px; color: #e67e22;">19 купонов</span>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- Похожие категории -->
+    <section style="padding: 0 0 60px 0;">
+        <div class="container">
+            <div class="section-title">
+                <h2>📌 Похожие категории</h2>
+            </div>
+            <div style="display: flex; gap: 15px; flex-wrap: wrap;">
+                <a href="#" style="padding: 10px 25px; background-color: white; border: 1px solid #e67e22; border-radius: 30px; color: #e67e22; text-decoration: none; transition: all 0.3s;">🍕 Пиццерии</a>
+                <a href="#" style="padding: 10px 25px; background-color: white; border: 1px solid #e67e22; border-radius: 30px; color: #e67e22; text-decoration: none; transition: all 0.3s;">🍣 Суши-бары</a>
+                <a href="#" style="padding: 10px 25px; background-color: white; border: 1px solid #e67e22; border-radius: 30px; color: #e67e22; text-decoration: none; transition: all 0.3s;">🍔 Фастфуд</a>
+                <a href="#" style="padding: 10px 25px; background-color: white; border: 1px solid #e67e22; border-radius: 30px; color: #e67e22; text-decoration: none; transition: all 0.3s;">☕ Кофейни</a>
+                <a href="#" style="padding: 10px 25px; background-color: white; border: 1px solid #e67e22; border-radius: 30px; color: #e67e22; text-decoration: none; transition: all 0.3s;">🍰 Кондитерские</a>
+                <a href="#" style="padding: 10px 25px; background-color: white; border: 1px solid #e67e22; border-radius: 30px; color: #e67e22; text-decoration: none; transition: all 0.3s;">🥡 WOK</a>
+            </div>
+        </div>
+    </section>
+
+    <!-- Футер -->
+    <footer>
+        <div class="container">
+            <div class="footer-content">
+                <div class="footer-column">
+                    <h3>О нас</h3>
+                    <p>Мы собираем лучшие скидки и купоны на доставку еды и в рестораны Москвы. Экономьте на любимых блюдах каждый день с нашими промокодами!</p>
+                    <div class="social-icons">
+                        <a href="#"><i class="fab fa-telegram"></i></a>
+                        <a href="#"><i class="fab fa-vk"></i></a>
+                        <a href="#"><i class="fab fa-instagram"></i></a>
+                        <a href="#"><i class="fab fa-tiktok"></i></a>
+                    </div>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Полезные ссылки</h3>
+                    <ul class="footer-links">
+                        <li><a href="index.html">Главная</a></li>
+                        <li><a href="discounts.html">Акции</a></li>
+                        <li><a href="categories.html">Категории</a></li>
+                        <li><a href="how-it-works.html">Как это работает</a></li>
+                        <li><a href="#">Партнерам (ресторанам)</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Кухни и рестораны</h3>
+                    <ul class="footer-links">
+                        <li><a href="#">Японская кухня</a></li>
+                        <li><a href="#">Итальянская кухня</a></li>
+                        <li><a href="#">Американская кухня</a></li>
+                        <li><a href="#">Доставка еды</a></li>
+                        <li><a href="#">Рестораны Москвы</a></li>
+                    </ul>
+                </div>
+                
+                <div class="footer-column">
+                    <h3>Контакты</h3>
+                    <p><i class="fas fa-envelope"></i> food@discounts.ru</p>
+                    <p><i class="fas fa-phone"></i> +7 (800) 123-45-67</p>
+                    <p><i class="fas fa-map-marker-alt"></i> Москва, ул. Ресторанная, д. 15</p>
+                    <p style="margin-top: 15px; color: #f39c12;"><i class="fas fa-clock"></i> Доставка 24/7</p>
+                </div>
+            </div>
+            
+            <div class="footer-bottom">
+                <p>&copy; 2026 Скидки&Купоны на еду и рестораны. Все права защищены.</p>
+                <p style="margin-top: 10px; font-size: 12px;">Купоны получить бесплатно на роллы и пиццу — только у нас!</p>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Скрипт для копирования купонов
+        document.querySelectorAll('.discount-button').forEach(button => {
+            button.addEventListener('click', function(e) {
+                if (!this.closest('.expired')) {
+                    const couponCode = this.parentElement.querySelector('.coupon-code').textContent;
+                    navigator.clipboard.writeText(couponCode).then(() => {
+                        const originalText = this.innerHTML;
+                        this.innerHTML = '<i class="fas fa-check"></i> Код скопирован!';
+                        this.style.backgroundColor = '#27ae60';
+                        
+                        setTimeout(() => {
+                            this.innerHTML = originalText;
+                            this.style.backgroundColor = '#e67e22';
+                        }, 2000);
+                    });
+                }
+                e.preventDefault();
+            });
+        });
+
+        // Скрипт для фильтров
+        document.querySelectorAll('.filter-tab').forEach(tab => {
+            tab.addEventListener('click', function() {
+                document.querySelectorAll('.filter-tab').forEach(t => t.classList.remove('active'));
+                this.classList.add('active');
+                alert(`Фильтр: ${this.textContent}\n(В реальном сайте здесь будет фильтрация по типу кухни и ресторанам)`);
+            });
+        });
+
+        // Скрипт для сортировки
+        document.querySelector('.sort-select')?.addEventListener('change', function() {
+            alert(`Сортировка: ${this.options[this.selectedIndex].text}\n(В реальном сайте здесь будет сортировка предложений)`);
+        });
+
+        // Скрипт для кухонь мира
+        document.querySelectorAll('.cuisine-chip').forEach(chip => {
+            chip.addEventListener('click', function() {
+                alert(`Выбрана кухня: ${this.textContent}\n(В реальном сайте здесь будет фильтрация по выбранной кухне)`);
+            });
+        });
+
+        // Скрипт для эксклюзивного купона
+        document.querySelector('.sidebar-widget button')?.addEventListener('click', function(e) {
+            if (this.textContent === 'Активировать') {
+                alert('Промокод ROLL50 скопирован! Скидка 50% на роллы активирована.');
+                navigator.clipboard.writeText('ROLL50');
+            }
+        });
+
+        // Скрипт для подписки
+        document.querySelectorAll('.sidebar-widget button').forEach(button => {
+            if (button.textContent === 'Подписаться на вкусное') {
+                button.addEventListener('click', function() {
+                    const email = this.previousElementSibling.value;
+                    if (email) {
+                        alert(`Спасибо за подписку! На email ${email} будут приходить самые вкусные купоны на еду.`);
+                        this.previousElementSibling.value = '';
+                    } else {
+                        alert('Пожалуйста, введите email, чтобы получать скидки на еду');
+                    }
+                });
+            }
+        });
+
+        // Скрипт для скачивания приложения
+        document.querySelectorAll('.sidebar-widget button').forEach(button => {
+            if (button.textContent.includes('App Store') || button.textContent.includes('Google Play')) {
+                button.addEventListener('click', function() {
+                    alert('Скачивание приложения начнется автоматически. Спасибо!');
+                });
+            }
+        });
+    </script>
+</body>
+</html>
