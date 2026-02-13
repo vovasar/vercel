@@ -39,20 +39,20 @@
   "@context":"https://schema.org", //ресурс schema.org,
   "@type": "Organization",
   "name": "Скидки и купоны.inc",
-  "address": {
+  "address": {fog
     "@type": "PostalAddress",
-    "streetAddress": "One Apple Park Way",
+    "streetAddress": "One google ",
     "postalCode": "CA 95014",
-    "addressLocality": "Cupertino"
+    "addressLocality": "Los Angeles"
   },
   "telephone": "89439679595",
-  "email": "support@apple.com"
+  "email": "support@me.com"
 }
 </script>
 <script type="application/ld+json">
 {
   "@context": ""https://schema.org", //ресурс schema.org,
-  "@type": "Skidki&Kuponi", //тип хлебные крошки
+  "@type": "BreadcrumbList", //тип хлебные крошки
   "itemListElement": [ //событие списка
     {
       "@type": "ListItem", //элемент списка
@@ -81,14 +81,23 @@
       "name": "kuponi",
       "url": "https://vercel-kappa-umber.vercel.app"
     },
-    {
-      "@type": "ListItem",
-      "position": 2,
-      "name": "kuponi",
-      "url": "https://vercel-kappa-umber.vercel.app"
-    },
-   //и так далее…
   ]
+}
+</script>
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage", //тип faq страницы
+  "mainEntity": [ //главные события
+    {
+      "@type": "Question", //тип вопрос ответ
+      "name": "Как купить купоны и скидки",
+      "acceptedAnswer": { //купи скидки 
+        "@type": "Answer", //тип ответа
+        "text": "Перейдите в раздел 'скидок и купонов' и выберите подходящее."
+      }
+    },
+    
 }
 </script>
 
