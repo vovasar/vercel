@@ -1,0 +1,99 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE yml_catalog SYSTEM "shops.dtd">
+<yml_catalog date="2026-03-06 10:29:22">
+  <shop>
+    <name>Скидки и купоны</name>
+    <company>ООО &quot;Скидки и купоны&quot;</company>
+    <url>https://vercel-kappa-umber.vercel.app/</url>
+
+    <currencies>
+      <currency id="RUR" rate="1"/>
+    </currencies>
+
+    <categories>
+      <category id="1">1</category>
+      <category id="2">2</category>
+      <category id="3">3</category>
+      <category id="4">4</category>
+      <category id="5">5</category>
+      <category id="6">6</category>
+      <category id="7">7</category>
+      <category id="8">8</category>
+    </categories>
+
+    <offers>
+      <offer id="1" available="true">
+        <price>799</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>1</categoryId>
+        <url>https://www.legitauthentication.app/bags</url>
+        <picture>https://static.tildacdn.com/tild3133-6561-4330-a365-383136326137/_2.svg</picture>
+        <name>ООО &quot;Legit Check&quot;</name>
+        <description>Экспертная проверка подлинности брендовых сумок (Louis Vuitton, Hermès, Gucci и др.) с выдачей официального сертификата.</description>
+      </offer>
+      <offer id="2" available="true">
+        <price>799</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>2</categoryId>
+        <url>https://www.legitauthentication.app/sneakers</url>
+        <picture>https://static.tildacdn.com/tild6437-3664-4631-b731-353538336331/yuLoc1oQhdM_1.jpg</picture>
+        <name>ООО &quot;Legit Check&quot;</name>
+        <description>Профессиональная проверка подлинности кроссовок Nike, Adidas, Balenciaga и других брендов с детальным отчётом.</description>
+      </offer>
+      <offer id="3" available="true">
+        <price>799</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>3</categoryId>
+        <url>https://www.legitauthentication.app/clothing</url>
+        <picture>https://static.tildacdn.com/tild3664-6533-4137-b039-336237393237/nZrZR3DcNlg.jpg</picture>
+        <name>ООО &quot;Legit Check&quot;</name>
+        <description>Анализ подлинности брендовой одежды: Supreme, Stone Island, CP Company, Off-White и других.</description>
+      </offer>
+      <offer id="4" available="true">
+        <price>999</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>4</categoryId>
+        <url>https://www.legitauthentication.app/watch</url>
+        <picture>https://static.tildacdn.com/tild6261-3839-4164-b364-623433303665/zubZGGAWzFs.jpg</picture>
+        <name>ООО &quot;Legit Check&quot;</name>
+        <description>Экспертная верификация подлинности наручных часов Rolex, Omega, Cartier и других премиальных брендов.</description>
+      </offer>
+      <offer id="5" available="true">
+        <price>999</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>5</categoryId>
+        <url>https://www.legitauthentication.app/</url>
+        <picture>https://static.tildacdn.com/tild3130-3136-4564-b562-366565333365/_2.svg</picture>
+        <name>ООО &quot;Legit Check&quot;</name>
+        <description>Проверка подлинности люксовых парфюмов Chanel, Dior, Tom Ford и других с анализом упаковки и аромата.</description>
+      </offer>
+      <offer id="6" available="true">
+        <price>999</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>6</categoryId>
+        <url>https://www.legitauthentication.app/</url>
+        <picture>https://static.tildacdn.com/tild6437-3664-4631-b731-353538336331/yuLoc1oQhdM_1.jpg</picture>
+        <name>ООО &quot;Legit Check&quot;</name>
+        <description>Аутентификация ювелирных изделий из золота, серебра и с драгоценными камнями от известных брендов.</description>
+      </offer>
+      <offer id="7" available="true">
+        <price>1499</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>7</categoryId>
+        <url>https://www.legitauthentication.app/</url>
+        <picture>https://static.tildacdn.com/tild3664-6533-4137-b039-336237393237/nZrZR3DcNlg.jpg</picture>
+        <name>ООО &quot;Legit Check&quot;</name>
+        <description>Проверка подлинности очков, ремней, кошельков, нашивок и других аксессуаров (Gucci, Prada, Stone Island и др.).</description>
+      </offer>
+      <offer id="8" available="true">
+        <price>1999</price>
+        <currencyId>RUR</currencyId>
+        <categoryId>8</categoryId>
+        <url>https://www.legitauthentication.app/</url>
+        <picture>https://static.tildacdn.com/tild6261-3839-4164-b364-623433303665/zubZGGAWzFs.jpg</picture>
+        <name>ООО &quot;Legit Check&quot;</name>
+        <description>Аутентификация редких коллекционных предметов: фигурок, лимитированных изданий, винтажных вещей.</description>
+      </offer>
+    </offers>
+  </shop>
+</yml_catalog>
