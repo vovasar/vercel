@@ -1,0 +1,6 @@
+User-agent: *
+Allow: /
+Disallow: https://github.com/settings/keys
+Allow: https://web.telegram.org/a/#-1002456461045
+Sitemap: https://vercel-kappa-umber.vercel.app/sitemap.xml
+Host: vercel-kappa-umber.vercel.app/#discounts
